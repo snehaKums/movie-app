@@ -53,7 +53,7 @@ const DefaultMovieList = () => {
             <div className="button-container">
               {favoriteChecker(movie.id) ?
                   <button className="added-to-fav" onClick={console.log("..remove..")}>Added to Favorites</button>
-                  :
+                :
                   <button className="add-to-fav" onClick={()=>handleFavorite(movie)}>Add to Favorites</button>
               }
             </div>
